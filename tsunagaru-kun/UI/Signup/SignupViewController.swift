@@ -9,7 +9,9 @@
 import UIKit
 
 class SignupViewController: UIViewController {
-
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +24,10 @@ class SignupViewController: UIViewController {
     }
     
 
+    @IBAction func tapSignupButton(_ sender: Any) {
+        print("押されたよ")
+        print(self.emailField.text!)
+    }
     /*
     // MARK: - Navigation
 

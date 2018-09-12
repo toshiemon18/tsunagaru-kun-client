@@ -48,6 +48,9 @@
                                 <state key="normal" title="　アカウントを作成　">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="tapSignupButton:" destination="jcq-aN-uIx" eventType="touchUpInside" id="h0h-kO-Fxi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LvD-UE-fdT">
                                 <rect key="frame" x="89" y="363" width="197" height="27"/>
@@ -77,6 +80,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="29O-Qt-Ous"/>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="7cR-wh-LJU" id="umA-Vl-6xc"/>
+                        <outlet property="passwordField" destination="RWy-mp-WN9" id="OtO-41-Mcl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mi3-W5-lAr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
