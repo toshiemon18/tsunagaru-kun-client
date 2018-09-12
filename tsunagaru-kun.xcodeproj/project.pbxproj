@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0432301BB97C2D4B401DCBE2 /* Pods_tsunagaru_kun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8293ED9C33CE70F25230FB10 /* Pods_tsunagaru_kun.framework */; };
+		552EBB6821489DF1006D70EC /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552EBB6721489DF1006D70EC /* Login.storyboard */; };
+		552EBB6A21489E14006D70EC /* Signup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552EBB6921489E14006D70EC /* Signup.storyboard */; };
+		552EBB6C21489E22006D70EC /* Devicelist.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552EBB6B21489E22006D70EC /* Devicelist.storyboard */; };
+		552EBB6E21489E2D006D70EC /* Adddevice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552EBB6D21489E2D006D70EC /* Adddevice.storyboard */; };
+		552EBB7021489E4A006D70EC /* Devicedetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552EBB6F21489E4A006D70EC /* Devicedetail.storyboard */; };
+		552EBB7221489E58006D70EC /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552EBB7121489E58006D70EC /* Settings.storyboard */; };
+		552EBB7421489E66006D70EC /* Usersettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552EBB7321489E66006D70EC /* Usersettings.storyboard */; };
+		552EBB7621489E74006D70EC /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552EBB7521489E74006D70EC /* Notification.storyboard */; };
+		552EBB7821489E89006D70EC /* Generalsettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552EBB7721489E89006D70EC /* Generalsettings.storyboard */; };
 		FB0D8FA420E62444005A18C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D8FA320E62444005A18C6 /* AppDelegate.swift */; };
 		FB0D8FA620E62444005A18C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D8FA520E62444005A18C6 /* ViewController.swift */; };
 		FB0D8FA920E62444005A18C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0D8FA720E62444005A18C6 /* Main.storyboard */; };
@@ -17,6 +26,15 @@
 
 /* Begin PBXFileReference section */
 		4A13E4A580D1D0E576B94295 /* Pods-tsunagaru-kun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tsunagaru-kun.release.xcconfig"; path = "Pods/Target Support Files/Pods-tsunagaru-kun/Pods-tsunagaru-kun.release.xcconfig"; sourceTree = "<group>"; };
+		552EBB6721489DF1006D70EC /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		552EBB6921489E14006D70EC /* Signup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signup.storyboard; sourceTree = "<group>"; };
+		552EBB6B21489E22006D70EC /* Devicelist.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Devicelist.storyboard; sourceTree = "<group>"; };
+		552EBB6D21489E2D006D70EC /* Adddevice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Adddevice.storyboard; path = "tsunagaru-kun/UI/Adddevice.storyboard"; sourceTree = SOURCE_ROOT; };
+		552EBB6F21489E4A006D70EC /* Devicedetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Devicedetail.storyboard; sourceTree = "<group>"; };
+		552EBB7121489E58006D70EC /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		552EBB7321489E66006D70EC /* Usersettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Usersettings.storyboard; sourceTree = "<group>"; };
+		552EBB7521489E74006D70EC /* Notification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
+		552EBB7721489E89006D70EC /* Generalsettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Generalsettings.storyboard; sourceTree = "<group>"; };
 		8293ED9C33CE70F25230FB10 /* Pods_tsunagaru_kun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tsunagaru_kun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A4FA74B803438AF6B62188 /* Pods-tsunagaru-kun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tsunagaru-kun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tsunagaru-kun/Pods-tsunagaru-kun.debug.xcconfig"; sourceTree = "<group>"; };
 		FB0D8FA020E62444005A18C6 /* tsunagaru-kun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tsunagaru-kun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +64,94 @@
 				8293ED9C33CE70F25230FB10 /* Pods_tsunagaru_kun.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		552EBB5C21489C60006D70EC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				552EBB6621489DC0006D70EC /* Generalsettings */,
+				552EBB6521489DB2006D70EC /* Notification */,
+				552EBB6421489DA6006D70EC /* Usersettings */,
+				552EBB6221489D6C006D70EC /* Settings */,
+				552EBB6121489D5A006D70EC /* Devicedetail */,
+				552EBB6021489CDF006D70EC /* Adddevice */,
+				552EBB5F21489CC8006D70EC /* Devicelist */,
+				552EBB5E21489CB6006D70EC /* Signup */,
+				552EBB5D21489C91006D70EC /* Login */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		552EBB5D21489C91006D70EC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				552EBB6721489DF1006D70EC /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		552EBB5E21489CB6006D70EC /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				552EBB6921489E14006D70EC /* Signup.storyboard */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		552EBB5F21489CC8006D70EC /* Devicelist */ = {
+			isa = PBXGroup;
+			children = (
+				552EBB6B21489E22006D70EC /* Devicelist.storyboard */,
+			);
+			path = Devicelist;
+			sourceTree = "<group>";
+		};
+		552EBB6021489CDF006D70EC /* Adddevice */ = {
+			isa = PBXGroup;
+			children = (
+				552EBB6D21489E2D006D70EC /* Adddevice.storyboard */,
+			);
+			path = Adddevice;
+			sourceTree = "<group>";
+		};
+		552EBB6121489D5A006D70EC /* Devicedetail */ = {
+			isa = PBXGroup;
+			children = (
+				552EBB6F21489E4A006D70EC /* Devicedetail.storyboard */,
+			);
+			path = Devicedetail;
+			sourceTree = "<group>";
+		};
+		552EBB6221489D6C006D70EC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				552EBB7121489E58006D70EC /* Settings.storyboard */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		552EBB6421489DA6006D70EC /* Usersettings */ = {
+			isa = PBXGroup;
+			children = (
+				552EBB7321489E66006D70EC /* Usersettings.storyboard */,
+			);
+			path = Usersettings;
+			sourceTree = "<group>";
+		};
+		552EBB6521489DB2006D70EC /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				552EBB7521489E74006D70EC /* Notification.storyboard */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		552EBB6621489DC0006D70EC /* Generalsettings */ = {
+			isa = PBXGroup;
+			children = (
+				552EBB7721489E89006D70EC /* Generalsettings.storyboard */,
+			);
+			path = Generalsettings;
 			sourceTree = "<group>";
 		};
 		7F3026B789650B2C78213821 /* Pods */ = {
@@ -78,6 +184,7 @@
 		FB0D8FA220E62444005A18C6 /* tsunagaru-kun */ = {
 			isa = PBXGroup;
 			children = (
+				552EBB5C21489C60006D70EC /* UI */,
 				FB0D8FA320E62444005A18C6 /* AppDelegate.swift */,
 				FB0D8FA520E62444005A18C6 /* ViewController.swift */,
 				FB0D8FA720E62444005A18C6 /* Main.storyboard */,
@@ -149,8 +256,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552EBB7821489E89006D70EC /* Generalsettings.storyboard in Resources */,
+				552EBB6821489DF1006D70EC /* Login.storyboard in Resources */,
+				552EBB7021489E4A006D70EC /* Devicedetail.storyboard in Resources */,
 				FB0D8FAE20E62444005A18C6 /* LaunchScreen.storyboard in Resources */,
+				552EBB6C21489E22006D70EC /* Devicelist.storyboard in Resources */,
 				FB0D8FAB20E62444005A18C6 /* Assets.xcassets in Resources */,
+				552EBB6A21489E14006D70EC /* Signup.storyboard in Resources */,
+				552EBB7421489E66006D70EC /* Usersettings.storyboard in Resources */,
+				552EBB7221489E58006D70EC /* Settings.storyboard in Resources */,
+				552EBB6E21489E2D006D70EC /* Adddevice.storyboard in Resources */,
+				552EBB7621489E74006D70EC /* Notification.storyboard in Resources */,
 				FB0D8FA920E62444005A18C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,8 +279,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-tsunagaru-kun/Pods-tsunagaru-kun-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
@@ -172,8 +286,6 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
@@ -189,15 +301,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-tsunagaru-kun-checkManifestLockResult.txt",
 			);
