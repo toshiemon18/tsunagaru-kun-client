@@ -15,6 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        let login = UserDefaults.standard.bool(forKey: "login")
+
+        var next: UIViewController!
+        
+        if login {
+            let storyboard = UIStoryboard(name: "Devicelist", bundle: nil)
+            next = storyboard.instantiateInitialViewController()
+        } else {
+            let storyboard = UIStoryboard(name: "Login", bundle: nil)
+            next = storyboard.instantiateInitialViewController()
+        }
+        self.window?.rootViewController = next
         // Override point for customization after application launch.
         return true
     }
