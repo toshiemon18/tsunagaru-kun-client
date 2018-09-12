@@ -48,6 +48,9 @@
                                 <state key="normal" title="　つながるくんにログイン　">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="tapLoginButton:" destination="3SW-OE-6La" eventType="touchUpInside" id="U7w-Tg-rgn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iab-uc-CBk">
                                 <rect key="frame" x="77" y="363" width="221" height="27"/>
@@ -77,6 +80,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6cH-EP-W5n"/>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="6Ie-q1-DnF" id="PKu-cj-mYl"/>
+                        <outlet property="passwordField" destination="M3j-7L-g7e" id="Cn4-oP-QGV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="30c-X9-o4D" sceneMemberID="firstResponder"/>
             </objects>
