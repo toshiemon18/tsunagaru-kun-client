@@ -29,7 +29,7 @@
 		552EBB6721489DF1006D70EC /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		552EBB6921489E14006D70EC /* Signup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Signup.storyboard; sourceTree = "<group>"; };
 		552EBB6B21489E22006D70EC /* Devicelist.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Devicelist.storyboard; sourceTree = "<group>"; };
-		552EBB6D21489E2D006D70EC /* Adddevice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Adddevice.storyboard; path = "tsunagaru-kun/UI/Adddevice.storyboard"; sourceTree = SOURCE_ROOT; };
+		552EBB6D21489E2D006D70EC /* Adddevice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Adddevice.storyboard; path = Adddevice.storyboard; sourceTree = "<group>"; };
 		552EBB6F21489E4A006D70EC /* Devicedetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Devicedetail.storyboard; sourceTree = "<group>"; };
 		552EBB7121489E58006D70EC /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		552EBB7321489E66006D70EC /* Usersettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Usersettings.storyboard; sourceTree = "<group>"; };
@@ -69,15 +69,15 @@
 		552EBB5C21489C60006D70EC /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				552EBB6621489DC0006D70EC /* Generalsettings */,
-				552EBB6521489DB2006D70EC /* Notification */,
-				552EBB6421489DA6006D70EC /* Usersettings */,
-				552EBB6221489D6C006D70EC /* Settings */,
-				552EBB6121489D5A006D70EC /* Devicedetail */,
 				552EBB6021489CDF006D70EC /* Adddevice */,
+				552EBB6121489D5A006D70EC /* Devicedetail */,
 				552EBB5F21489CC8006D70EC /* Devicelist */,
-				552EBB5E21489CB6006D70EC /* Signup */,
+				552EBB6621489DC0006D70EC /* Generalsettings */,
 				552EBB5D21489C91006D70EC /* Login */,
+				552EBB6521489DB2006D70EC /* Notification */,
+				552EBB6221489D6C006D70EC /* Settings */,
+				552EBB5E21489CB6006D70EC /* Signup */,
+				552EBB6421489DA6006D70EC /* Usersettings */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -166,10 +166,10 @@
 		FB0D8F9720E62444005A18C6 = {
 			isa = PBXGroup;
 			children = (
-				FB0D8FA220E62444005A18C6 /* tsunagaru-kun */,
-				FB0D8FA120E62444005A18C6 /* Products */,
-				7F3026B789650B2C78213821 /* Pods */,
 				13BE6B6ADDB76D2C91D0B1C8 /* Frameworks */,
+				7F3026B789650B2C78213821 /* Pods */,
+				FB0D8FA120E62444005A18C6 /* Products */,
+				FB0D8FA220E62444005A18C6 /* tsunagaru-kun */,
 			);
 			sourceTree = "<group>";
 		};
@@ -186,11 +186,11 @@
 			children = (
 				552EBB5C21489C60006D70EC /* UI */,
 				FB0D8FA320E62444005A18C6 /* AppDelegate.swift */,
-				FB0D8FA520E62444005A18C6 /* ViewController.swift */,
-				FB0D8FA720E62444005A18C6 /* Main.storyboard */,
 				FB0D8FAA20E62444005A18C6 /* Assets.xcassets */,
-				FB0D8FAC20E62444005A18C6 /* LaunchScreen.storyboard */,
 				FB0D8FAF20E62444005A18C6 /* Info.plist */,
+				FB0D8FAC20E62444005A18C6 /* LaunchScreen.storyboard */,
+				FB0D8FA720E62444005A18C6 /* Main.storyboard */,
+				FB0D8FA520E62444005A18C6 /* ViewController.swift */,
 			);
 			path = "tsunagaru-kun";
 			sourceTree = "<group>";
@@ -335,6 +335,7 @@
 				FB0D8FA820E62444005A18C6 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		FB0D8FAC20E62444005A18C6 /* LaunchScreen.storyboard */ = {
@@ -343,6 +344,7 @@
 				FB0D8FAD20E62444005A18C6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
