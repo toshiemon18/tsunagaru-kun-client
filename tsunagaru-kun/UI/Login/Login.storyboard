@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ymP-ul-8xF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3SW-OE-6La">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -11,19 +11,73 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="aae-0Q-pWl">
+        <scene sceneID="NIS-IZ-NbK">
             <objects>
-                <viewController id="ymP-ul-8xF" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="RxR-FI-2Tl">
+                <viewController id="3SW-OE-6La" customClass="ViewController" customModule="tsunagaru_kun" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ExQ-PN-jH1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="R5z-9G-SEw"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="つながるくん" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUR-4l-OAZ">
+                                <rect key="frame" x="69.5" y="80" width="236" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <color key="textColor" red="0.0" green="0.89719054674237508" blue="0.51818472255598247" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="メールアドレス" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Ie-q1-DnF">
+                                <rect key="frame" x="10" y="198" width="355" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="パスワード" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M3j-7L-g7e">
+                                <rect key="frame" x="10" y="233" width="355" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iab-uc-CBk">
+                                <rect key="frame" x="77" y="363" width="221" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="アカウントをお持ちでない場合はこちら"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIZ-Zg-tuw">
+                                <rect key="frame" x="58" y="313" width="260" height="40"/>
+                                <color key="backgroundColor" red="0.41568627450980394" green="0.89411764705882357" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="5Dq-Va-wS5"/>
+                                    <constraint firstAttribute="width" constant="260" id="Kcl-Le-m8V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="19"/>
+                                <state key="normal" title="　つながるくんにログイン　">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="M3j-7L-g7e" firstAttribute="top" secondItem="6Ie-q1-DnF" secondAttribute="bottom" constant="5" id="D64-pg-cLF"/>
+                            <constraint firstItem="6Ie-q1-DnF" firstAttribute="leading" secondItem="6cH-EP-W5n" secondAttribute="leading" constant="10" id="En3-jr-Nra"/>
+                            <constraint firstItem="Iab-uc-CBk" firstAttribute="top" secondItem="XIZ-Zg-tuw" secondAttribute="bottom" constant="10" id="HTa-DA-3nK"/>
+                            <constraint firstItem="xUR-4l-OAZ" firstAttribute="top" secondItem="6cH-EP-W5n" secondAttribute="top" constant="60" id="Muc-Wo-Kh5"/>
+                            <constraint firstItem="M3j-7L-g7e" firstAttribute="leading" secondItem="6cH-EP-W5n" secondAttribute="leading" constant="10" id="axP-G7-696"/>
+                            <constraint firstItem="Iab-uc-CBk" firstAttribute="centerX" secondItem="ExQ-PN-jH1" secondAttribute="centerX" id="b9u-5y-jUL"/>
+                            <constraint firstItem="6cH-EP-W5n" firstAttribute="trailing" secondItem="6Ie-q1-DnF" secondAttribute="trailing" constant="10" id="bm8-Uq-aP6"/>
+                            <constraint firstItem="XIZ-Zg-tuw" firstAttribute="top" secondItem="M3j-7L-g7e" secondAttribute="bottom" constant="50" id="cQR-i6-mTd"/>
+                            <constraint firstItem="xUR-4l-OAZ" firstAttribute="centerX" secondItem="ExQ-PN-jH1" secondAttribute="centerX" id="iKs-Pj-tu8"/>
+                            <constraint firstItem="6Ie-q1-DnF" firstAttribute="top" secondItem="xUR-4l-OAZ" secondAttribute="bottom" constant="70" id="ogh-UA-pHR"/>
+                            <constraint firstItem="M3j-7L-g7e" firstAttribute="centerX" secondItem="ExQ-PN-jH1" secondAttribute="centerX" id="sf9-7E-Y1K"/>
+                            <constraint firstItem="XIZ-Zg-tuw" firstAttribute="centerX" secondItem="ExQ-PN-jH1" secondAttribute="centerX" id="tpg-O4-9jB"/>
+                            <constraint firstItem="6cH-EP-W5n" firstAttribute="trailing" secondItem="M3j-7L-g7e" secondAttribute="trailing" constant="10" id="uBS-e0-WfH"/>
+                            <constraint firstItem="6Ie-q1-DnF" firstAttribute="centerX" secondItem="ExQ-PN-jH1" secondAttribute="centerX" id="wkX-Pf-W67"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6cH-EP-W5n"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jN1-4u-Ho7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="30c-X9-o4D" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-71" y="-105"/>
+            <point key="canvasLocation" x="84" y="-102.09895052473765"/>
         </scene>
     </scenes>
 </document>
