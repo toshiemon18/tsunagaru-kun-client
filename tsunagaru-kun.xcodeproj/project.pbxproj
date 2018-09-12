@@ -195,8 +195,8 @@
 				FB0D8FAA20E62444005A18C6 /* Assets.xcassets */,
 				FB0D8FAF20E62444005A18C6 /* Info.plist */,
 				FB0D8FAC20E62444005A18C6 /* LaunchScreen.storyboard */,
-				FB0D8FA520E62444005A18C6 /* ViewController.swift */,
 				552EBB792148A30D006D70EC /* Settings.swift */,
+				FB0D8FA520E62444005A18C6 /* ViewController.swift */,
 			);
 			path = "tsunagaru-kun";
 			sourceTree = "<group>";
