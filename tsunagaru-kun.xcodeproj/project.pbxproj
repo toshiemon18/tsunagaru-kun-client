@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0432301BB97C2D4B401DCBE2 /* Pods_tsunagaru_kun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8293ED9C33CE70F25230FB10 /* Pods_tsunagaru_kun.framework */; };
 		FB0D8FA420E62444005A18C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D8FA320E62444005A18C6 /* AppDelegate.swift */; };
 		FB0D8FA620E62444005A18C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D8FA520E62444005A18C6 /* ViewController.swift */; };
 		FB0D8FA920E62444005A18C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0D8FA720E62444005A18C6 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A13E4A580D1D0E576B94295 /* Pods-tsunagaru-kun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tsunagaru-kun.release.xcconfig"; path = "Pods/Target Support Files/Pods-tsunagaru-kun/Pods-tsunagaru-kun.release.xcconfig"; sourceTree = "<group>"; };
+		8293ED9C33CE70F25230FB10 /* Pods_tsunagaru_kun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tsunagaru_kun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A4FA74B803438AF6B62188 /* Pods-tsunagaru-kun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tsunagaru-kun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tsunagaru-kun/Pods-tsunagaru-kun.debug.xcconfig"; sourceTree = "<group>"; };
 		FB0D8FA020E62444005A18C6 /* tsunagaru-kun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tsunagaru-kun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0D8FA320E62444005A18C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB0D8FA520E62444005A18C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0432301BB97C2D4B401DCBE2 /* Pods_tsunagaru_kun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13BE6B6ADDB76D2C91D0B1C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8293ED9C33CE70F25230FB10 /* Pods_tsunagaru_kun.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F3026B789650B2C78213821 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7A4FA74B803438AF6B62188 /* Pods-tsunagaru-kun.debug.xcconfig */,
+				4A13E4A580D1D0E576B94295 /* Pods-tsunagaru-kun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FB0D8F9720E62444005A18C6 = {
 			isa = PBXGroup;
 			children = (
 				FB0D8FA220E62444005A18C6 /* tsunagaru-kun */,
 				FB0D8FA120E62444005A18C6 /* Products */,
+				7F3026B789650B2C78213821 /* Pods */,
+				13BE6B6ADDB76D2C91D0B1C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB0D8FB220E62444005A18C6 /* Build configuration list for PBXNativeTarget "tsunagaru-kun" */;
 			buildPhases = (
+				4F0849500ED605C42B0F872A /* [CP] Check Pods Manifest.lock */,
 				FB0D8F9C20E62444005A18C6 /* Sources */,
 				FB0D8F9D20E62444005A18C6 /* Frameworks */,
 				FB0D8F9E20E62444005A18C6 /* Resources */,
+				104CCFAABEDB28865810B3E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,6 +156,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		104CCFAABEDB28865810B3E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tsunagaru-kun/Pods-tsunagaru-kun-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tsunagaru-kun/Pods-tsunagaru-kun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F0849500ED605C42B0F872A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tsunagaru-kun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB0D8F9C20E62444005A18C6 /* Sources */ = {
@@ -272,6 +349,7 @@
 		};
 		FB0D8FB320E62444005A18C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A4FA74B803438AF6B62188 /* Pods-tsunagaru-kun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +364,7 @@
 		};
 		FB0D8FB420E62444005A18C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A13E4A580D1D0E576B94295 /* Pods-tsunagaru-kun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
