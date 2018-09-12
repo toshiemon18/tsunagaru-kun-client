@@ -18,6 +18,7 @@
 		552EBB7621489E74006D70EC /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552EBB7521489E74006D70EC /* Notification.storyboard */; };
 		552EBB7821489E89006D70EC /* Generalsettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552EBB7721489E89006D70EC /* Generalsettings.storyboard */; };
 		552EBB7A2148A30D006D70EC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552EBB792148A30D006D70EC /* Settings.swift */; };
+		552EBB7E2148E23C006D70EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552EBB7D2148E23C006D70EC /* LoginViewController.swift */; };
 		FB0D8FA420E62444005A18C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D8FA320E62444005A18C6 /* AppDelegate.swift */; };
 		FB0D8FA620E62444005A18C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D8FA520E62444005A18C6 /* ViewController.swift */; };
 		FB0D8FAB20E62444005A18C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0D8FAA20E62444005A18C6 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		552EBB7521489E74006D70EC /* Notification.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notification.storyboard; sourceTree = "<group>"; };
 		552EBB7721489E89006D70EC /* Generalsettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Generalsettings.storyboard; sourceTree = "<group>"; };
 		552EBB792148A30D006D70EC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		552EBB7D2148E23C006D70EC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8293ED9C33CE70F25230FB10 /* Pods_tsunagaru_kun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tsunagaru_kun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A4FA74B803438AF6B62188 /* Pods-tsunagaru-kun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tsunagaru-kun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tsunagaru-kun/Pods-tsunagaru-kun.debug.xcconfig"; sourceTree = "<group>"; };
 		FB0D8FA020E62444005A18C6 /* tsunagaru-kun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tsunagaru-kun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				552EBB6721489DF1006D70EC /* Login.storyboard */,
+				552EBB7D2148E23C006D70EC /* LoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552EBB7E2148E23C006D70EC /* LoginViewController.swift in Sources */,
 				552EBB7A2148A30D006D70EC /* Settings.swift in Sources */,
 				FB0D8FA620E62444005A18C6 /* ViewController.swift in Sources */,
 				FB0D8FA420E62444005A18C6 /* AppDelegate.swift in Sources */,
