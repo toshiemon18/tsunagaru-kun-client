@@ -17,13 +17,78 @@
                     <view key="view" contentMode="scaleToFill" id="dMB-RO-piu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="つながるくん" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcC-L6-i3M">
+                                <rect key="frame" x="69.5" y="80" width="236" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <color key="textColor" red="0.0" green="0.89719054669999998" blue="0.51818472260000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="lightTextColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="メールアドレス" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7cR-wh-LJU">
+                                <rect key="frame" x="10" y="198" width="355" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="パスワード" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RWy-mp-WN9">
+                                <rect key="frame" x="10" y="233" width="355" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vcc-e6-2qx">
+                                <rect key="frame" x="57.5" y="313" width="260" height="40"/>
+                                <color key="backgroundColor" red="0.41568627450000001" green="0.89411764709999997" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="sf4-cp-fzB"/>
+                                    <constraint firstAttribute="width" constant="260" id="y4D-kQ-9x1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="19"/>
+                                <state key="normal" title="　アカウントを作成　">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LvD-UE-fdT">
+                                <rect key="frame" x="89" y="363" width="197" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="アカウントをお持ちの場合はこちら"/>
+                                <connections>
+                                    <segue destination="tpw-2G-ZtR" kind="show" id="Y3R-vR-KMp"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RWy-mp-WN9" firstAttribute="top" secondItem="7cR-wh-LJU" secondAttribute="bottom" constant="5" id="0iP-t0-d4J"/>
+                            <constraint firstItem="Vcc-e6-2qx" firstAttribute="top" secondItem="RWy-mp-WN9" secondAttribute="bottom" constant="50" id="GtY-YP-ff1"/>
+                            <constraint firstItem="LvD-UE-fdT" firstAttribute="top" secondItem="Vcc-e6-2qx" secondAttribute="bottom" constant="10" id="I1f-jb-GCJ"/>
+                            <constraint firstItem="LvD-UE-fdT" firstAttribute="centerX" secondItem="dMB-RO-piu" secondAttribute="centerX" id="IhU-0P-UcS"/>
+                            <constraint firstItem="7cR-wh-LJU" firstAttribute="top" secondItem="dcC-L6-i3M" secondAttribute="bottom" constant="70" id="Lvs-Is-cPV"/>
+                            <constraint firstItem="7cR-wh-LJU" firstAttribute="centerX" secondItem="dMB-RO-piu" secondAttribute="centerX" id="MOa-cJ-Iji"/>
+                            <constraint firstItem="dcC-L6-i3M" firstAttribute="top" secondItem="29O-Qt-Ous" secondAttribute="top" constant="60" id="Mmm-Ho-0ew"/>
+                            <constraint firstItem="29O-Qt-Ous" firstAttribute="trailing" secondItem="7cR-wh-LJU" secondAttribute="trailing" constant="10" id="V0q-qm-eVj"/>
+                            <constraint firstItem="29O-Qt-Ous" firstAttribute="trailing" secondItem="RWy-mp-WN9" secondAttribute="trailing" constant="10" id="aOc-8e-KN3"/>
+                            <constraint firstItem="dcC-L6-i3M" firstAttribute="centerX" secondItem="dMB-RO-piu" secondAttribute="centerX" id="bVF-8z-8yg"/>
+                            <constraint firstItem="7cR-wh-LJU" firstAttribute="leading" secondItem="29O-Qt-Ous" secondAttribute="leading" constant="10" id="csu-wV-Oeg"/>
+                            <constraint firstItem="RWy-mp-WN9" firstAttribute="leading" secondItem="29O-Qt-Ous" secondAttribute="leading" constant="10" id="pa8-LJ-MLS"/>
+                            <constraint firstItem="RWy-mp-WN9" firstAttribute="centerX" secondItem="dMB-RO-piu" secondAttribute="centerX" id="soG-3Q-Kyf"/>
+                            <constraint firstItem="Vcc-e6-2qx" firstAttribute="centerX" secondItem="dMB-RO-piu" secondAttribute="centerX" id="uWw-Ka-ufe"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="29O-Qt-Ous"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mi3-W5-lAr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="58" y="171"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="kMe-oR-pQ8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="tpw-2G-ZtR" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="606-S3-mkl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="676" y="171"/>
         </scene>
     </scenes>
 </document>
