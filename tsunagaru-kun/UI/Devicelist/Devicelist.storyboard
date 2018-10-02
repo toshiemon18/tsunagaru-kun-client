@@ -40,7 +40,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hj9-xa-GqW">
-                                <rect key="frame" x="345" y="15" width="30" height="48"/>
+                                <rect key="frame" x="340" y="15" width="30" height="48"/>
                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="36"/>
                                 <state key="normal" title="+"/>
                                 <connections>
@@ -50,10 +50,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Hj9-xa-GqW" firstAttribute="trailing" secondItem="EjU-mD-8uJ" secondAttribute="trailing" id="2Fx-0y-qmd"/>
                             <constraint firstItem="Hj9-xa-GqW" firstAttribute="top" secondItem="2U0-wb-CpB" secondAttribute="top" constant="15" id="N5D-hD-Oqy"/>
                             <constraint firstItem="8sC-cA-Aeb" firstAttribute="leading" secondItem="EjU-mD-8uJ" secondAttribute="leading" constant="9" id="dY3-4u-3TU"/>
                             <constraint firstItem="8sC-cA-Aeb" firstAttribute="top" secondItem="2U0-wb-CpB" secondAttribute="top" constant="22" id="pNy-id-Bai"/>
+                            <constraint firstAttribute="trailing" secondItem="Hj9-xa-GqW" secondAttribute="trailing" constant="5" id="yCZ-X9-6aA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EjU-mD-8uJ"/>
                     </view>

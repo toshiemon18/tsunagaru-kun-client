@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="家電を追加する" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRX-cv-g02">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="家電を追加する" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRX-cv-g02">
                                 <rect key="frame" x="35" y="70" width="119" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="9Wz-re-pGC"/>
@@ -27,22 +27,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AzZ-WW-54p">
-                                <rect key="frame" x="42" y="141" width="291" height="30"/>
-                                <color key="backgroundColor" red="0.43921568630000002" green="0.94117647059999998" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="291" id="GPd-U1-XGt"/>
-                                </constraints>
-                                <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="ペアリング開始"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="wRX-cv-g02" firstAttribute="leading" secondItem="W9P-Nn-8AQ" secondAttribute="leading" constant="35" id="0Nq-gK-PN5"/>
-                            <constraint firstItem="AzZ-WW-54p" firstAttribute="top" secondItem="wRX-cv-g02" secondAttribute="bottom" constant="43" id="6cM-yi-Ecx"/>
-                            <constraint firstItem="AzZ-WW-54p" firstAttribute="centerX" secondItem="n6K-1m-Zt2" secondAttribute="centerX" id="e8j-RE-brc"/>
-                            <constraint firstItem="W9P-Nn-8AQ" firstAttribute="bottom" secondItem="AzZ-WW-54p" secondAttribute="bottom" constant="496" id="rOT-Fn-pyk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="W9P-Nn-8AQ"/>
                     </view>
