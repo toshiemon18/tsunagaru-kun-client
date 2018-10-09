@@ -10,6 +10,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Settings-->
+        <scene sceneID="KI4-Dn-YMP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Settings" id="uXu-M9-6Hb" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aIW-pz-an9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-722" y="-77"/>
+        </scene>
         <!--Title-->
         <scene sceneID="uhG-uF-NF8">
             <objects>
@@ -30,6 +38,9 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Back"/>
                                             </button>
+                                            <connections>
+                                                <segue destination="uXu-M9-6Hb" kind="showDetail" id="cQZ-7N-gpN"/>
+                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
