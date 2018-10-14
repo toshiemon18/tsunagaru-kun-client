@@ -19,6 +19,7 @@
 		552EBB7821489E89006D70EC /* Generalsettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552EBB7721489E89006D70EC /* Generalsettings.storyboard */; };
 		552EBB7A2148A30D006D70EC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552EBB792148A30D006D70EC /* Settings.swift */; };
 		552EBB7E2148E23C006D70EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552EBB7D2148E23C006D70EC /* LoginViewController.swift */; };
+		5586B589215BC3FC000FB52B /* Devicelist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5586B588215BC3FC000FB52B /* Devicelist.swift */; };
 		941CD68D2148E23D005681D1 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941CD68C2148E23D005681D1 /* SignupViewController.swift */; };
 		F85B331221733BB500B6F028 /* wave_64.png in Resources */ = {isa = PBXBuildFile; fileRef = F85B330921733BB400B6F028 /* wave_64.png */; };
 		F85B331321733BB500B6F028 /* wave_32.png in Resources */ = {isa = PBXBuildFile; fileRef = F85B330A21733BB400B6F028 /* wave_32.png */; };
@@ -48,6 +49,7 @@
 		552EBB7721489E89006D70EC /* Generalsettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Generalsettings.storyboard; sourceTree = "<group>"; };
 		552EBB792148A30D006D70EC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		552EBB7D2148E23C006D70EC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5586B588215BC3FC000FB52B /* Devicelist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devicelist.swift; sourceTree = "<group>"; };
 		8293ED9C33CE70F25230FB10 /* Pods_tsunagaru_kun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tsunagaru_kun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		941CD68C2148E23D005681D1 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		F7A4FA74B803438AF6B62188 /* Pods-tsunagaru-kun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tsunagaru-kun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tsunagaru-kun/Pods-tsunagaru-kun.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				552EBB6B21489E22006D70EC /* Devicelist.storyboard */,
+				5586B588215BC3FC000FB52B /* Devicelist.swift */,
 			);
 			path = Devicelist;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				552EBB7E2148E23C006D70EC /* LoginViewController.swift in Sources */,
+				5586B589215BC3FC000FB52B /* Devicelist.swift in Sources */,
 				552EBB7A2148A30D006D70EC /* Settings.swift in Sources */,
 				FB0D8FA620E62444005A18C6 /* ViewController.swift in Sources */,
 				941CD68D2148E23D005681D1 /* SignupViewController.swift in Sources */,

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3SW-OE-6La">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3SW-OE-6La">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="つながるくん" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUR-4l-OAZ">
-                                <rect key="frame" x="69" y="80" width="236" height="48"/>
+                                <rect key="frame" x="69.5" y="80" width="236" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <color key="textColor" red="0.0" green="0.89719054674237508" blue="0.51818472255598247" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -37,8 +37,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES" textContentType="password"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iab-uc-CBk">
+                                <rect key="frame" x="77" y="363" width="221" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="アカウントをお持ちでない場合はこちら"/>
+                                <connections>
+                                    <segue destination="2os-8k-3xm" kind="show" id="osK-KN-j0B"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIZ-Zg-tuw">
-                                <rect key="frame" x="58" y="313" width="260" height="40"/>
+                                <rect key="frame" x="57.5" y="313" width="260" height="40"/>
                                 <color key="backgroundColor" red="0.41568627450980394" green="0.89411764705882357" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="5Dq-Va-wS5"/>
@@ -50,14 +58,7 @@
                                 </state>
                                 <connections>
                                     <action selector="tapLoginButton:" destination="3SW-OE-6La" eventType="touchUpInside" id="U7w-Tg-rgn"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iab-uc-CBk">
-                                <rect key="frame" x="77" y="363" width="221" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="アカウントをお持ちでない場合はこちら"/>
-                                <connections>
-                                    <segue destination="2os-8k-3xm" kind="show" id="osK-KN-j0B"/>
+                                    <segue destination="wTU-SD-heh" kind="show" id="cb8-ZS-JbZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -96,6 +97,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Mt-IL-AdZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="778" y="-109"/>
+        </scene>
+        <!--Devicelist-->
+        <scene sceneID="Sjr-uE-QqK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Devicelist" id="wTU-SD-heh" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vbv-O4-xgv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="754" y="23"/>
         </scene>
     </scenes>
 </document>
