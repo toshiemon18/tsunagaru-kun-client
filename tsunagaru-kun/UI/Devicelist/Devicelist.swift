@@ -7,3 +7,17 @@
 //
 
 import Foundation
+import UIKit
+import Alamofire
+import SwiftyJSON
+
+class Devicelist: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+}
