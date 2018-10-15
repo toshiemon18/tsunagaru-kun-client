@@ -16,7 +16,7 @@
                 <viewControllerPlaceholder storyboardName="Settings" id="aUy-Z0-02Y" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7c0-9J-HIn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-802" y="-1219"/>
+            <point key="canvasLocation" x="-682" y="-1123"/>
         </scene>
         <!--Adddevice-->
         <scene sceneID="8nv-Ft-F17">
@@ -24,7 +24,7 @@
                 <viewControllerPlaceholder storyboardName="Adddevice" id="HNb-FV-2p5" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W8c-qT-5Os" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-989" y="-1219"/>
+            <point key="canvasLocation" x="-1139" y="-1123"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="t6d-GJ-Jay">
@@ -100,6 +100,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iyq-gk-mpb">
+                                                    <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
                                             </subviews>
@@ -163,11 +164,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dV1-Vc-zFf"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rbs-1N-IFD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-918" y="-1435"/>
+            <point key="canvasLocation" x="-916" y="-1254"/>
         </scene>
     </scenes>
 </document>
