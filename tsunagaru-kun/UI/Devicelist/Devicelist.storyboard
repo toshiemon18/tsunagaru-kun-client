@@ -16,7 +16,7 @@
                 <viewControllerPlaceholder storyboardName="Settings" id="aUy-Z0-02Y" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7c0-9J-HIn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1164" y="-806"/>
+            <point key="canvasLocation" x="-1088" y="-806"/>
         </scene>
         <!--Adddevice-->
         <scene sceneID="8nv-Ft-F17">
@@ -24,7 +24,7 @@
                 <viewControllerPlaceholder storyboardName="Adddevice" id="HNb-FV-2p5" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W8c-qT-5Os" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1154" y="-851"/>
+            <point key="canvasLocation" x="-1101" y="-1048"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="t6d-GJ-Jay">
@@ -53,18 +53,18 @@
                                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
                                                 <state key="normal" title="設定"/>
                                                 <connections>
-                                                    <segue destination="HNb-FV-2p5" kind="show" id="FTs-am-8Nd"/>
+                                                    <segue destination="aUy-Z0-02Y" kind="show" id="9Gp-Ww-9nE"/>
                                                 </connections>
                                             </button>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" style="plain" id="Tez-Ps-M0z">
-                                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="id8-TI-yan">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="id8-TI-yan">
                                                 <rect key="frame" x="274" y="0.0" width="30" height="44"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="36"/>
                                                 <state key="normal" title="+"/>
                                                 <connections>
-                                                    <segue destination="aUy-Z0-02Y" kind="show" id="X09-KA-Sci"/>
+                                                    <segue destination="HNb-FV-2p5" kind="show" id="PCd-hk-NjF"/>
                                                 </connections>
                                             </button>
                                         </barButtonItem>
