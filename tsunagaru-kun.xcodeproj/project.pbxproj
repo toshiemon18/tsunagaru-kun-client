@@ -21,6 +21,15 @@
 		552EBB7E2148E23C006D70EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552EBB7D2148E23C006D70EC /* LoginViewController.swift */; };
 		5586B589215BC3FC000FB52B /* Devicelist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5586B588215BC3FC000FB52B /* Devicelist.swift */; };
 		941CD68D2148E23D005681D1 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941CD68C2148E23D005681D1 /* SignupViewController.swift */; };
+		F85B331221733BB500B6F028 /* wave_64.png in Resources */ = {isa = PBXBuildFile; fileRef = F85B330921733BB400B6F028 /* wave_64.png */; };
+		F85B331321733BB500B6F028 /* wave_32.png in Resources */ = {isa = PBXBuildFile; fileRef = F85B330A21733BB400B6F028 /* wave_32.png */; };
+		F85B331421733BB500B6F028 /* setting_64.png in Resources */ = {isa = PBXBuildFile; fileRef = F85B330B21733BB400B6F028 /* setting_64.png */; };
+		F85B331521733BB500B6F028 /* archive_128.png in Resources */ = {isa = PBXBuildFile; fileRef = F85B330C21733BB400B6F028 /* archive_128.png */; };
+		F85B331621733BB500B6F028 /* setting_32.png in Resources */ = {isa = PBXBuildFile; fileRef = F85B330D21733BB400B6F028 /* setting_32.png */; };
+		F85B331721733BB500B6F028 /* archive_32.png in Resources */ = {isa = PBXBuildFile; fileRef = F85B330E21733BB400B6F028 /* archive_32.png */; };
+		F85B331821733BB500B6F028 /* wave_128.png in Resources */ = {isa = PBXBuildFile; fileRef = F85B330F21733BB400B6F028 /* wave_128.png */; };
+		F85B331921733BB500B6F028 /* setting_128.png in Resources */ = {isa = PBXBuildFile; fileRef = F85B331021733BB400B6F028 /* setting_128.png */; };
+		F85B331A21733BB500B6F028 /* archive_64.png in Resources */ = {isa = PBXBuildFile; fileRef = F85B331121733BB400B6F028 /* archive_64.png */; };
 		FB0D8FA420E62444005A18C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D8FA320E62444005A18C6 /* AppDelegate.swift */; };
 		FB0D8FA620E62444005A18C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0D8FA520E62444005A18C6 /* ViewController.swift */; };
 		FB0D8FAB20E62444005A18C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0D8FAA20E62444005A18C6 /* Assets.xcassets */; };
@@ -44,6 +53,15 @@
 		8293ED9C33CE70F25230FB10 /* Pods_tsunagaru_kun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tsunagaru_kun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		941CD68C2148E23D005681D1 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		F7A4FA74B803438AF6B62188 /* Pods-tsunagaru-kun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tsunagaru-kun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tsunagaru-kun/Pods-tsunagaru-kun.debug.xcconfig"; sourceTree = "<group>"; };
+		F85B330921733BB400B6F028 /* wave_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wave_64.png; path = "tsunagaru-kun/ImageSets/wave_64.png"; sourceTree = SOURCE_ROOT; };
+		F85B330A21733BB400B6F028 /* wave_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wave_32.png; path = "tsunagaru-kun/ImageSets/wave_32.png"; sourceTree = SOURCE_ROOT; };
+		F85B330B21733BB400B6F028 /* setting_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = setting_64.png; path = "tsunagaru-kun/ImageSets/setting_64.png"; sourceTree = SOURCE_ROOT; };
+		F85B330C21733BB400B6F028 /* archive_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = archive_128.png; path = "tsunagaru-kun/ImageSets/archive_128.png"; sourceTree = SOURCE_ROOT; };
+		F85B330D21733BB400B6F028 /* setting_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = setting_32.png; path = "tsunagaru-kun/ImageSets/setting_32.png"; sourceTree = SOURCE_ROOT; };
+		F85B330E21733BB400B6F028 /* archive_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = archive_32.png; path = "tsunagaru-kun/ImageSets/archive_32.png"; sourceTree = SOURCE_ROOT; };
+		F85B330F21733BB400B6F028 /* wave_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wave_128.png; path = "tsunagaru-kun/ImageSets/wave_128.png"; sourceTree = SOURCE_ROOT; };
+		F85B331021733BB400B6F028 /* setting_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = setting_128.png; path = "tsunagaru-kun/ImageSets/setting_128.png"; sourceTree = SOURCE_ROOT; };
+		F85B331121733BB400B6F028 /* archive_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = archive_64.png; path = "tsunagaru-kun/ImageSets/archive_64.png"; sourceTree = SOURCE_ROOT; };
 		FB0D8FA020E62444005A18C6 /* tsunagaru-kun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tsunagaru-kun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0D8FA320E62444005A18C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB0D8FA520E62444005A18C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +93,7 @@
 		552EBB5C21489C60006D70EC /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				F85B330821733B9A00B6F028 /* ImageSets */,
 				552EBB6021489CDF006D70EC /* Adddevice */,
 				552EBB6121489D5A006D70EC /* Devicedetail */,
 				552EBB5F21489CC8006D70EC /* Devicelist */,
@@ -172,6 +191,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F85B330821733B9A00B6F028 /* ImageSets */ = {
+			isa = PBXGroup;
+			children = (
+				F85B330E21733BB400B6F028 /* archive_32.png */,
+				F85B331121733BB400B6F028 /* archive_64.png */,
+				F85B330C21733BB400B6F028 /* archive_128.png */,
+				F85B330D21733BB400B6F028 /* setting_32.png */,
+				F85B330B21733BB400B6F028 /* setting_64.png */,
+				F85B331021733BB400B6F028 /* setting_128.png */,
+				F85B330A21733BB400B6F028 /* wave_32.png */,
+				F85B330921733BB400B6F028 /* wave_64.png */,
+				F85B330F21733BB400B6F028 /* wave_128.png */,
+			);
+			path = ImageSets;
+			sourceTree = "<group>";
+		};
 		FB0D8F9720E62444005A18C6 = {
 			isa = PBXGroup;
 			children = (
@@ -265,17 +300,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F85B331221733BB500B6F028 /* wave_64.png in Resources */,
+				F85B331A21733BB500B6F028 /* archive_64.png in Resources */,
 				552EBB7821489E89006D70EC /* Generalsettings.storyboard in Resources */,
 				552EBB6821489DF1006D70EC /* Login.storyboard in Resources */,
+				F85B331721733BB500B6F028 /* archive_32.png in Resources */,
+				F85B331821733BB500B6F028 /* wave_128.png in Resources */,
 				552EBB7021489E4A006D70EC /* Devicedetail.storyboard in Resources */,
 				FB0D8FAE20E62444005A18C6 /* LaunchScreen.storyboard in Resources */,
 				552EBB6C21489E22006D70EC /* Devicelist.storyboard in Resources */,
+				F85B331321733BB500B6F028 /* wave_32.png in Resources */,
+				F85B331621733BB500B6F028 /* setting_32.png in Resources */,
 				FB0D8FAB20E62444005A18C6 /* Assets.xcassets in Resources */,
 				552EBB6A21489E14006D70EC /* Signup.storyboard in Resources */,
 				552EBB7421489E66006D70EC /* Usersettings.storyboard in Resources */,
 				552EBB7221489E58006D70EC /* Settings.storyboard in Resources */,
 				552EBB6E21489E2D006D70EC /* Adddevice.storyboard in Resources */,
 				552EBB7621489E74006D70EC /* Notification.storyboard in Resources */,
+				F85B331521733BB500B6F028 /* archive_128.png in Resources */,
+				F85B331921733BB500B6F028 /* setting_128.png in Resources */,
+				F85B331421733BB500B6F028 /* setting_64.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

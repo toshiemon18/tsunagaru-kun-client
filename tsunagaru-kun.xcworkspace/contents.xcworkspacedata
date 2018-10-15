@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:tsunagaru-kun/Views/BaseDevicesTabView.xib">
+   </FileRef>
+   <FileRef
       location = "group:tsunagaru-kun.xcodeproj">
    </FileRef>
    <FileRef
