@@ -10,12 +10,13 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class SignupViewController: UIViewController {
+class SignupViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        passwordField.delegate = self
 
         // Do any additional setup after loading the view.
     }
@@ -23,6 +24,11 @@ class SignupViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func textFieldShouldReturn(_ passwordField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
     
 
