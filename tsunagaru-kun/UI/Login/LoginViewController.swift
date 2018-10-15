@@ -9,13 +9,14 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        passwordField.delegate = self
 
         // Do any additional setup after loading the view.
     }
@@ -25,7 +26,11 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    func textFieldShouldReturn(_ passwordField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
+    }
+    
     @IBAction func tapLoginButton(_ sender: Any) {
         print("ボタンが押されたよ")
         print(self.emailField.text!)
