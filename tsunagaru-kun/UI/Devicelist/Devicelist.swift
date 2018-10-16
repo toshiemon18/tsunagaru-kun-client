@@ -11,13 +11,21 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class Devicelist: UIViewController {
+class Devicelist: UIViewController, UITableViewDelegate {
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    var selectedTitle: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.delegate = self
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+    
 }
