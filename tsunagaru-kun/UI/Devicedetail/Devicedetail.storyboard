@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Devicedetail View Controller-->
         <scene sceneID="EBo-Sy-aSd">
             <objects>
-                <viewController id="NUP-wC-adw" sceneMemberID="viewController">
+                <viewController id="NUP-wC-adw" customClass="DevicedetailViewController" customModule="tsunagaru_kun" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FcT-Z7-DZy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -118,7 +118,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="xQ4-Vt-FOs" detailTextLabel="sBI-bf-gVL" style="IBUITableViewCellStyleValue1" id="lsj-xs-JyV">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="tableView" textLabel="xQ4-Vt-FOs" detailTextLabel="sBI-bf-gVL" style="IBUITableViewCellStyleValue1" id="lsj-xs-JyV">
                                         <rect key="frame" x="0.0" y="88" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lsj-xs-JyV" id="VdJ-nK-Yfj">
