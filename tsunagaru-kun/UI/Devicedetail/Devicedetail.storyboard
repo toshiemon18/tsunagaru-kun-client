@@ -106,6 +106,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="washer" width="256" height="256"/>
+        <image name="washer" width="128" height="128"/>
     </resources>
 </document>
