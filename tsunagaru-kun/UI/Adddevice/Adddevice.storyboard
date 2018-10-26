@@ -46,7 +46,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wave_128.png" translatesAutoresizingMaskIntoConstraints="NO" id="ORy-S8-yLd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wave" translatesAutoresizingMaskIntoConstraints="NO" id="ORy-S8-yLd">
                                 <rect key="frame" x="85" y="198" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -61,6 +61,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="wave_128.png" width="128" height="128"/>
+        <image name="wave" width="64" height="64"/>
     </resources>
 </document>

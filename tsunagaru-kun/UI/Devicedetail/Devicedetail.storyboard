@@ -38,7 +38,7 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="washer-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="zfY-XA-Uir">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="washer" translatesAutoresizingMaskIntoConstraints="NO" id="zfY-XA-Uir">
                                 <rect key="frame" x="96" y="74" width="128" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -277,6 +277,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="washer-1.png" width="256" height="256"/>
+        <image name="washer" width="128" height="128"/>
     </resources>
 </document>

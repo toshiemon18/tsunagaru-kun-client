@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "wave_32.png",
+      "filename" : "wave_128-1.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "wave_64.png",
+      "filename" : "wave_128-2.png",
       "scale" : "2x"
     },
     {
