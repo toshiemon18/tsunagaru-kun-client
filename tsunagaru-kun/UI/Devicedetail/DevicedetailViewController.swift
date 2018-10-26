@@ -22,7 +22,9 @@ class DevicedetailViewController: UIViewController, UITableViewDelegate, UITable
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell: UITableViewCell =  tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel!.text = evaluationVals[indexPath.row]
+        return cell
     }
     
     
