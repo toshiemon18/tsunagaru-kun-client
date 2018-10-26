@@ -12,6 +12,7 @@ import Alamofire
 import SwiftyJSON
 
 class DevicedetailViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    @IBOutlet weak var detailTable: UITableView!
     
     let evaluationVals = ["電圧[V]", "電流量[A]", "有効電力[W]",
                           "換算電力量[W]", "電気料金[円/月]", "CO2排出量[kg]",
