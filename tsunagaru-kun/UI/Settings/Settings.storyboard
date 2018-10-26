@@ -31,7 +31,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="設定" id="unY-fh-9Ai">
-                                        <barButtonItem key="leftBarButtonItem" title="戻る" id="QMr-pO-QnY">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="QMr-pO-QnY">
                                             <connections>
                                                 <segue destination="z7h-er-GIq" kind="showDetail" id="1Kz-iZ-cv5"/>
                                             </connections>
