@@ -61,6 +61,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="wave" width="64" height="64"/>
+        <image name="wave" width="128" height="128"/>
     </resources>
 </document>
